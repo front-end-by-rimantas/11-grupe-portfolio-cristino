@@ -6,6 +6,17 @@
 /************************************************************/
 /* LAYOUT */
 
+.bg-text{
+    color: var(--color-primary-red);
+}
+.bg-lightGrey{
+    background-color: var(--color-lightGrey);
+
+}
+.bg-darkGrey {
+    background-color: var(--color-darkGrey);
+
+}
 /************************************************************/
 
 /************************************************************/
