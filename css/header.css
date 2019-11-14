@@ -5,7 +5,6 @@
 .hAh>.row>nav{
     display: inline-block;
 width: 1100px;
-border: 1px solid red;
 margin: 0px calc(50% - 550px);
 
 }
@@ -29,13 +28,36 @@ margin: 0px calc(50% - 550px);
     color: white;
     font-size: 15px;
     float: center;
+    font-weight: bolder;
 }
+.hAh a:hover{
+    color: #B92B21;
+}
+
+#arrowDown{
+    margin-top: 5px;
+    padding-left: 5px;
+    font-weight: bolder;
+}
+#arrowDown:hover{
+    dropdo
+}
+
 .hAh>.row>nav>i
 {
     display: inline-block;
-    text-align: right;
+    float: right;
     border: 1px solid white;
     border-spacing: 10px;
     width: 30px;
     height: 30px;
+    padding: 6px 5px 4px;
+    margin-top: -5px;
+    margin-left: 15px;
+    border-radius: 3px;
     }
+    .hAh>.row>nav>i:hover {
+background-color: #B92B21;
+        cursor: pointer;
+    }
+    
