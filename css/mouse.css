@@ -1,0 +1,9 @@
+.mouse {
+    display: inline-block;
+    height: 38px;
+    width: 26px;
+    border: 2px solid #495057;
+    border-radius: 25px;
+    background-color: white;
+    margin-top: 50px;
+}
