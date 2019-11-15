@@ -11,10 +11,81 @@
 @import './header.css';
 @import './progress-bar.css';
 @import './testimonials.css';
+@import './form.css';
+@import './mouse.css';
 
 
-<!-- hero start -->
-<!-- hero end -->
+/* <!-- hero start --> */
+.hAh{
+    display: inline-block;
+  width: 100%;
+  text-align: center;
+  background-image: url(../img/home/01.jpg);
+  background-size: 130% 180%;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  color: white;
+  letter-spacing: 1px;
+  
+}
+
+.hero>img{
+  display: inline-block;
+  width: 200px;
+  background-image: url(../img/home/hero.jpg);
+  background-size: contain;
+  background-position: center;
+  border: 5px solid #DEE2E6;
+  border-radius: 100px;
+  margin-top: 100px;
+  
+   
+}
+.hero>h3{
+    display: inline-block;
+  width: 100%;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin: 16px 0px 8px;
+  
+
+}
+.hero>h1{
+    display: inline-block;
+  width: 100%;
+  font-size: 50px;
+  margin-bottom: 8px;
+
+}
+.hero>p{
+    display: inline-block;
+  width: 100%;
+  font-size: 15px;
+  max-width: 700px;
+  line-height: 27px;
+
+}
+.hero>.heroButtons{
+    display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+}
+.hero .button1{
+    display: inline-block;
+  width: 42.5%;
+  text-align: right;
+  
+
+}
+.hero .button2{
+    display: inline-block;
+  width: 47.5%;
+  text-align: left;
+
+}
+/* <!-- hero end -->
 
 <!-- about me start -->
 <!-- about me end -->
@@ -42,5 +113,5 @@
 <!-- hire me end -->
 
 <!-- contact me start -->
-<!-- contact me end -->
+<!-- contact me end --> */
 
