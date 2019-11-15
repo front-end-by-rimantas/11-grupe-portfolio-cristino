@@ -13,6 +13,7 @@ margin: 0px calc(50% - 550px);
     width: 108px;
     height: 15px;
     float: left;
+    margin-right: 110px;
     
    
 }
@@ -22,13 +23,14 @@ margin: 0px calc(50% - 550px);
 
 .hAh a{
     display: inline-block;
-    margin-right: 20px;
+    margin-left: 30px;
     text-decoration: none;
     text-transform: uppercase;
     color: white;
     font-size: 15px;
-    float: center;
+    float: left;
     font-weight: bolder;
+    
 }
 .hAh a:hover{
     color: #B92B21;
@@ -39,9 +41,43 @@ margin: 0px calc(50% - 550px);
     padding-left: 5px;
     font-weight: bolder;
 }
-#arrowDown:hover{
-    dropdo
-}
+.dropdown {
+    position: relative;
+display: inline-block;
+  }
+
+  .dropdown-content {
+
+    display: none;
+    position: absolute;
+    top: 150%;
+    left: 20%;
+    background-color: #f1f1f1;
+    width: 150px;
+    box-shadow: 10px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    
+  }
+
+  .dropdown-content a {
+    
+    text-transform: capitalize;
+    font-weight: normal;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    margin-left: 0px;
+    line-height: 15px;
+    text-align: left;
+   
+    
+  }
+
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown-content a:hover {background-color: #ddd;}
+  
 
 .hAh>.row>nav>i
 {
@@ -52,9 +88,8 @@ margin: 0px calc(50% - 550px);
     width: 30px;
     height: 30px;
     padding: 6px 5px 4px;
-    margin-top: -5px;
-    margin-left: 15px;
     border-radius: 3px;
+    margin: -5px 0px 0px 15px;
     }
     .hAh>.row>nav>i:hover {
 background-color: #B92B21;
