@@ -37,13 +37,17 @@ margin: 0px calc(50% - 550px);
 }
 
 #arrowDown{
-    margin-top: 5px;
-    padding-left: 5px;
+    
     font-weight: bolder;
+}
+#arrowDown>i{
+    padding: 5px 0px 0px 5px;
+    
 }
 .dropdown {
     position: relative;
 display: inline-block;
+margin-left: -130px;
   }
 
   .dropdown-content {
@@ -70,12 +74,14 @@ display: inline-block;
     display: block;
     margin-left: 0px;
     line-height: 15px;
-    text-align: left;
+    float: left;
    
     
   }
 
-  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropdown-content {display: block;
+  offset-distance: ;
+}
   .dropdown-content a:hover {background-color: #ddd;}
   
 
