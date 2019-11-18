@@ -85,15 +85,94 @@
   text-align: left;
 
 }
-/* <!-- hero end -->
+/* <!-- hero end --> */
 
-<!-- about me start -->
-<!-- about me end -->
 
-<!-- hobbies & interests start -->
-<!-- hobbies & interests end -->
+/* <!-- about me+hobbies & interests start--> */
+.aboutme {
+  display: inline-block;
+  padding: 100px 0;
+}
 
-<!-- what i offer start -->
+.face {
+  width: 100%;
+  border-style: none;
+  border: 16px solid #f8f9fa;
+}
+
+.textbox {
+  display: inline-block;
+  width: 100%;
+  color: #161C2D;
+  line-height: 35px;
+}
+
+.alignright {
+  display: inline-block;
+  width: 20%;
+  float: left;
+}
+
+h5 {
+  color: #B92B21;
+  font-size: 26px;
+  margin: 0 0 16px;
+}
+
+h6 {
+  font-size: 16px;
+  margin: 0 0 16px;
+}
+
+p {
+  display: inline-block;
+  margin: 0 0 16px;
+  color: #6C757D;
+}
+
+.sign {
+  height: 35px;
+  margin: 16px 0;
+}
+
+a {
+  display: inline-block;
+}
+
+.hobbies {
+  display: inline-block;
+  width: 25%;
+  margin: 24px 0 0;
+  float: left;
+  font-size: 17px;
+}
+
+.hobbies > i {
+  display: inline-block;
+  width: 30%;
+  line-height: 50px;
+  font-size: 30px;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+i:hover {
+  background-color: #fff;
+  color: red;
+}
+
+.hobbies > p {
+  display:inline-block;
+  width: 60%;
+  line-height: 50px;
+  background-color: #f8f9fa;
+}
+p:hover {
+  background-color: #fff;
+}
+
+/* <!-- about me+hobbies & interests end--> */
+
+/* <!-- what i offer start -->
 <!-- what i offer end -->
 
 <!-- achievements start -->
@@ -114,4 +193,4 @@
 
 <!-- contact me start -->
 <!-- contact me end --> */
-
+ */

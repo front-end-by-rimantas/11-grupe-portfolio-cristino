@@ -6,7 +6,8 @@
 
 // clients
 
-// about me
+// about me+hobbies
+renderHobbies ( hobbies );
 
 // numbers
 
