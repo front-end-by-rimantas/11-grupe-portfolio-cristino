@@ -94,54 +94,53 @@
   padding: 100px 0;
 }
 
-.face {
+.aboutme .face {
   width: 100%;
   border-style: none;
   border: 16px solid #f8f9fa;
 }
 
-.textbox {
+.aboutme .textbox {
   display: inline-block;
   width: 100%;
   color: #161C2D;
   line-height: 35px;
 }
 
-.alignright {
+.aboutme .alignright {
   display: inline-block;
   width: 20%;
   float: left;
 }
 
-h5 {
+.aboutme > .row > .col-7 > h5 {
   color: #B92B21;
   font-size: 26px;
   margin: 0 0 16px;
 }
 
-h6 {
+.aboutme > .row > .col-7 > h6 {
   font-size: 16px;
   margin: 0 0 16px;
 }
 
-p {
+.aboutme > .row > .col-7 > p {
   display: inline-block;
   margin: 0 0 16px;
   color: #6C757D;
 }
 
-.sign {
+.aboutme > .row > .col-7 > .col-3 >.sign {
   height: 35px;
   margin: 16px 0;
 }
 
-a {
+.aboutme > .row > .col-7 > a {
   display: inline-block;
 }
 
 .hobbies {
   display: inline-block;
-  width: 25%;
   margin: 24px 0 0;
   float: left;
   font-size: 17px;
@@ -155,9 +154,9 @@ a {
   text-align: center;
   background-color: #f8f9fa;
 }
-i:hover {
+ .hobbies > i:hover {
   background-color: #fff;
-  color: red;
+  color: #B92B21;
 }
 
 .hobbies > p {
@@ -166,10 +165,9 @@ i:hover {
   line-height: 50px;
   background-color: #f8f9fa;
 }
-p:hover {
+.hobbies > p:hover {
   background-color: #fff;
 }
-
 /* <!-- about me+hobbies & interests end--> */
 
 /* <!-- what i offer start -->
