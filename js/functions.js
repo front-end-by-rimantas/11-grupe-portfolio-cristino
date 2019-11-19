@@ -13,10 +13,10 @@ function renderAchievements(list) {
     let HTML = '';
 
     if (!Array.isArray(list)) {
-        return console.error('ERROR: duok sarasa...');
+        return console.error('ERROR: list not found');
     }
     if (list.length === 0) {
-        return console.error('ERROR: sarasas negali buti tuscias...');
+        return console.error('ERROR: list is empty');
     }
 
     for (let i = 0; i < list.length; i++) {
