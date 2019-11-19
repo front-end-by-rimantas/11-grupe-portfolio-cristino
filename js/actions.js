@@ -9,6 +9,8 @@
 // about me
 
 // numbers
+renderAchievements(numbers);
+
 
 // skills
 
@@ -23,4 +25,3 @@
 // contact me
 
 // footer
-
