@@ -17,6 +17,54 @@
     background-color: var(--color-darkGrey);
 
 }
+
+h4 {
+    display: inline-block;
+    width: 100%;
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 60px;
+    /* margin: 0 0 24px;
+    padding: 0 0 24px; */
+}
+
+    h4::before {
+        content: '';
+        display: inline-block;
+        width: 50px;
+        height: 10px;
+        color: var(--color-primary-red);
+    
+    }
+
+    h4::after {
+        content: '';
+        display: inline-block;
+    
+    }
+
+    /* h2::before {
+        content: '';
+        display: inline-block;
+        width: 50px;
+        height: 3px;
+        margin: -60px calc(50% - 25px);
+        background-color: var(--color-primary-light);
+    }
+    h2::after {
+        content: '';
+        display: inline-block;
+        width: 80px;
+        height: 2px;
+        margin: 12px calc(50% - 40px);
+        background-color: var(--color-primary-light);
+    }
+    h2.up {
+        text-transform: uppercase;
+    } */
+
 /************************************************************/
 
 /************************************************************/
