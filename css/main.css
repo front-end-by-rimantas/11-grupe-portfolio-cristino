@@ -41,7 +41,7 @@
     margin-top: 100px;
 }
 
-.hero h3 {
+.hero>h3 {
     display: inline-block;
     width: 100%;
     font-size: 18px;
@@ -63,7 +63,6 @@
     max-width: 700px;
     line-height: 27px;
 }
-
 
 /* <!-- hero end -->
 
@@ -156,23 +155,63 @@
 /* <!-- what i offer start -->
 <!-- what i offer end -->
 
-<!-- achievements start -->
-<!-- achievements end -->
+/*<!-- achievements start -->*/
 
-<!-- work participation start -->
-<!-- work participation end -->
+.bg-achievements {
+    display: inline-block;
+    width: 100%;
+    height: 40vh;
+    background-image: url(../img/portfolio/bg-counter.jpg);
+    background-position-x: left;
+    background-position-y: top;
+}
 
-<!-- WORK EXPERTISE start -->
-<!-- WORK EXPERTISE end -->
+.bg-overlay {
+    background-color: rgba(35, 37, 47, 0.7);
+    width: 100%;
+    height: 40vh;
+    position: absolute;
+}
+
+.achievement {
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+    padding: 100px 30px;
+    position: relative;
+}
+
+.achievement i {
+    display: inline-block;
+    font-size: 50px;
+    line-height: 90px;
+    text-align: center;
+    color: #c52c20 !important;
+}
+
+.achievement .texts {
+    display: inline-block;
+    margin-left: 15px;
+    line-height: 30px;
+    color: #fff !important;
+}
+
+.achievement .texts>.number {
+    display: inline-block;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.achievement .texts>.title {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
 
 
-<!-- LATEST NEWS & BLOG start -->
-<!-- LATEST NEWS & BLOG end -->
+/*<!-- achievements end -->*/
 
-<!-- hire me start -->
-<!-- hire me end -->
 
-<!-- contact me start -->
-<!-- contact me end --> */
+<!-- work participation start --><!-- work participation end --><!-- WORK EXPERTISE start --><!-- WORK EXPERTISE end --><!-- LATEST NEWS & BLOG start --><!-- LATEST NEWS & BLOG end --><!-- hire me start --><!-- hire me end --><!-- contact me start --><!-- contact me end -->*/
 
-*/

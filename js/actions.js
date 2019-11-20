@@ -8,6 +8,8 @@
 renderHobbies ( hobbies );
 
 // numbers
+renderAchievements(numbers);
+
 
 // skills
 
@@ -22,4 +24,3 @@ renderHobbies ( hobbies );
 // contact me
 
 // footer
-
