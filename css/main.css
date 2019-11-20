@@ -30,7 +30,7 @@
     letter-spacing: 1px;
 }
 
-.hero>img {
+.hero img {
     display: inline-block;
     width: 200px;
     background-image: url(../img/home/hero.jpg);
@@ -64,34 +64,95 @@
     line-height: 27px;
 }
 
-.hero>.heroButtons {
-    display: inline-block;
-    width: 100%;
-    margin-top: 20px;
-}
-
-.hero .button1 {
-    display: inline-block;
-    width: 42.5%;
-    text-align: right;
-}
-
-.hero .button2 {
-    display: inline-block;
-    width: 47.5%;
-    text-align: left;
-}
-
-
 /* <!-- hero end -->
 
-<!-- about me start -->
-<!-- about me end -->
+/* <!-- about me+hobbies & interests start--> */
 
-<!-- hobbies & interests start -->
-<!-- hobbies & interests end -->
+.aboutme {
+    display: inline-block;
+    padding: 100px 0;
+}
 
-<!-- what i offer start -->
+.aboutme .face {
+    width: 100%;
+    border-style: none;
+    border: 16px solid #f8f9fa;
+}
+
+.aboutme .textbox {
+    display: inline-block;
+    width: 100%;
+    color: #161C2D;
+    line-height: 35px;
+}
+
+.aboutme .alignright {
+    display: inline-block;
+    width: 20%;
+    float: left;
+}
+
+.aboutme>.row>.col-7>h5 {
+    color: #B92B21;
+    font-size: 26px;
+    margin: 0 0 16px;
+}
+
+.aboutme>.row>.col-7>h6 {
+    font-size: 16px;
+    margin: 0 0 16px;
+}
+
+.aboutme>.row>.col-7>p {
+    display: inline-block;
+    margin: 0 0 16px;
+    color: #6C757D;
+}
+
+.aboutme>.row>.col-7>.col-3>.sign {
+    height: 35px;
+    margin: 16px 0;
+}
+
+.aboutme>.row>.col-7>a {
+    display: inline-block;
+}
+
+.hobbies {
+    margin: 24px 0 0;
+    font-size: 17px;
+}
+
+.hobbies>i {
+    display: inline-block;
+    width: 25%;
+    line-height: 50px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.hobbies>i:hover {
+    background-color: #fff;
+    color: #B92B21;
+}
+
+.hobbies>p {
+    display: inline-block;
+    width: 70%;
+    line-height: 50px;
+    background-color: #f8f9fa;
+}
+
+.hobbies>p:hover {
+    background-color: #fff;
+}
+
+
+/* <!-- about me+hobbies & interests end--> */
+
+
+/* <!-- what i offer start -->
 <!-- what i offer end -->
 
 /*<!-- achievements start -->*/
@@ -151,4 +212,6 @@
 
 /*<!-- achievements end -->*/
 
+
 <!-- work participation start --><!-- work participation end --><!-- WORK EXPERTISE start --><!-- WORK EXPERTISE end --><!-- LATEST NEWS & BLOG start --><!-- LATEST NEWS & BLOG end --><!-- hire me start --><!-- hire me end --><!-- contact me start --><!-- contact me end -->*/
+

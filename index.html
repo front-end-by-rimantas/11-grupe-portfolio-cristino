@@ -14,59 +14,108 @@
     <!-- header+hero start -->
     <div class="hAh container-full">
         <div class="row">
-            <nav>
-                <img logo src="./img/portfolio/logo-light.png" alt="cristino">
-                <a href="#">Home</a>
-                <a href="#">Services</a>
-                <a href="#">resume</a>
-                <a href="#">projects</a>
-                <a href="#">blog</a>
-                <a href="#">contact</a>
-                <a href="#">pages<i class="fa fa-angle-down" id="arrowDown"></i></a>
-                <i class="fa fa-instagram"></i>
-                <i class="fa fa-twitter"></i>
+            <div class="col-3"><img logo src="./img/portfolio/logo-light.png" alt="cristino"></div>
+            <div class="col-6">
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">Services</a>
+                    <a href="#">resume</a>
+                    <a href="#">projects</a>
+                    <a href="#">blog</a>
+                    <a href="#">contact</a>
+                    <div class="dropdown">
+                        <a href="#" id="arrowDown">pages<i class="fa fa-angle-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#">Blog</a>
+                            <a href="#">Blog detail</a>
+                            <a href="#">Portfolio</a>
+                            <a href="#">Portfolio detail</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-3">
                 <i class="fa fa-facebook"></i>
-            </nav>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+            </div>
         </div>
         <div class="row">
-            <div class="hero">
-
+            <div class="hero" col-12>
                 <img src="./img/home/hero.jpg" alt="">
-
                 <h3>Hey, i'm designer</h3>
                 <h1 class="bg-text">Cristino Murphy</h1>
                 <p>Obviously I'M Web Designer. Web Developer with over 3 years of experience. Experienced with all stages of the development cycle for dynamic web projects.</p>
                 <div class="heroButtons">
-                    <div class="button1">hire me</div>
-                    <div class="button2">download cv</div>
+                    <div class="button1 btn1">hire me</div>
+                    <div class="button2 btn2">download cv</div>
                 </div>
-                <div class="mouse"></div>
-
+                <div class="mouse">
+                </div>
             </div>
         </div>
     </div>
 
     <!-- header+hero end -->
 
-
-    <!-- about me start -->
-    <div class="container">
-
+    <!-- about me+hobbies & interests start-->
+    <div class="aboutme container">
         <div class="row">
-            about me
+            <div class="col-5">
+                <img src="./img/portfolio/hero.png" class="face" alt="">
+            </div>
+            <div class="col-7">
+                <h5>Cristino Murphy</h5>
+                <h6>I'm Passionate <span style="color: #B92B21;">Web Designer</span></h6>
+                <p>Obviously I'M Web Designer. Web Developer with over 3 years of experience. Experienced with all stages of the development cycle for dynamic web projects. The as opposed to using 'Content here, content here', making it look like readable
+                    English.
+                </p>
+                <div class="textbox">
+                    <div class="alignright">
+                        Email ID:
+                    </div>
+                    <div class="alignleft">
+                        cristinomurphy_21@mail.com
+                    </div>
+                    <div class="alignright">
+                        Address:
+                    </div>
+                    <div class="alignleft">
+                        Singapore-203
+                    </div>
+                    <div class="alignright">
+                        Age:
+                    </div>
+                    <div class="alignleft">
+                        21
+                    </div>
+                    <div class="alignright">
+                        Nationality:
+                    </div>
+                    <div class="alignleft">
+                        USA
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img src="./img/portfolio/sign.png" class="sign" alt="">
+                </div>
+                <a href="#" class="button3">view portfolio</a>
+            </div>
         </div>
     </div>
-    <!-- about me end -->
-
-    <!-- hobbies & interests start -->
     <div class="container">
-
         <div class="row">
-            hobbies & interests
+            <h4>hobbies & interests</h4>
+            <p>Obviously I'M Web Designer. Experienced with all stages of the development cycle for dynamic web projects.
+            </p>
         </div>
     </div>
-    <!-- hobbies & interests end -->
-
+    <div class="interests container">
+        <div class="row" id="hobbies">
+            <!-- hobbiesList JavaSriptas -->
+        </div>
+    </div>
+    <!-- about me+hobbies & interests end -->
 
     <!-- what i offer start -->
     <div class="container bg-lightGrey">
@@ -82,7 +131,6 @@
         <div class="col-12">
             <div class="bg-primary bg-achievements">
                 <div class="bg-overlay"></div>
-
                 <div class="achievements container">
                     <div class="row" id="achievements">
                         <!-- achievements JavaSriptas -->
@@ -92,7 +140,6 @@
         </div>
     </div>
     </div>
-
     <!-- achievements end -->
 
     <!-- work participation start -->
