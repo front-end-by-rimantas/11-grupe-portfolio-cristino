@@ -71,8 +71,8 @@
 /* <!-- about me+hobbies & interests start--> */
 
 .aboutme {
-  display: inline-block;
-  padding: 100px 0 80px 0;
+    display: inline-block;
+    padding: 100px 0 80px 0;
 }
 
 .aboutme .face {
@@ -121,7 +121,7 @@
 }
 
 .interests {
-  padding-top: 35px;
+    padding-top: 35px;
 }
 
 .hobbies {
@@ -217,4 +217,64 @@
 
 /*<!-- achievements end -->*/
 
-<!-- work participation start --><!-- work participation end --><!-- WORK EXPERTISE start --><!-- WORK EXPERTISE end --><!-- LATEST NEWS & BLOG start --><!-- LATEST NEWS & BLOG end --><!-- hire me start --><!-- hire me end --><!-- contact me start --><!-- contact me end -->*/
+
+/* <!-- work participation start --><!-- work participation end --><!-- WORK EXPERTISE start --><!-- WORK EXPERTISE end --><!-- LATEST NEWS & BLOG start --><!-- LATEST NEWS & BLOG end --><!-- hire me start --><!-- hire me end --> */
+
+
+/* <!-- contact me start --> */
+
+.contacts1,
+.contacts2,
+.contacts3 {
+    display: inline-block;
+    margin: 50px 10px;
+    text-align: center;
+}
+
+.contacts h5 {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 20px 0px;
+}
+
+.contacts i {
+    font-size: 180%;
+}
+
+.contacts a {
+    color: red;
+    text-decoration: none;
+}
+
+.contacts p {
+    margin-bottom: 20px;
+}
+
+.contacts input {
+    color: #777;
+}
+
+.input1 input {
+    display: block;
+    width: 100%;
+    line-height: 26px;
+    margin-bottom: 38px;
+    =
+}
+
+.input2 {
+    display: inline-block;
+}
+
+.input2 input {
+    width: 100%;
+    height: 166px;
+}
+
+.sendMessage {
+    float: right;
+    margin: 30px 15px 0px;
+}
+
+
+/* <!-- contact me end -->*/
