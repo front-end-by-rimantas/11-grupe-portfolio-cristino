@@ -1,6 +1,42 @@
-.btn {
+/* =======baltos raides raudona fonas on hover tamsus fonas========== */
 
+.btn1 {
+    display: inline-block;
+    color: white;
+    background-color: var(--color-primary-red);
+    padding: 12px 24px;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
 }
-    .btn:hover {
-        
-    }
+
+
+/* =======raudonos raides permatomas  fonas on hover raudonas fonas========== */
+
+.btn2 {
+    display: inline-block;
+    padding: 12px 24px;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+    border: 1px solid var(--color-primary-red);
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--color-primary-red);
+}
+
+.btn1:hover {
+    background-color: var(--color-darkGrey)
+}
+
+.btn2:hover {
+    color: white;
+    background-color: var(--color-primary-red);
+}

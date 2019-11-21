@@ -4,11 +4,12 @@
 
 // hero
 
-// clients
-
-// about me
+// about me+hobbies
+renderHobbies ( hobbies );
 
 // numbers
+renderAchievements(numbers);
+
 
 // skills
 
@@ -23,4 +24,3 @@
 // contact me
 
 // footer
-

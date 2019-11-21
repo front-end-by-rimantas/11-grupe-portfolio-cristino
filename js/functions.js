@@ -4,11 +4,52 @@
 
 // hero
 
-// clients
+// about me+hobbies
+function renderHobbies (hobbiesList) {
+    let HTML = '';
 
-// about me
+    for (let i=0; i<hobbies.length; i++) {
+        const hobbies = hobbiesList[i];
+
+        HTML += `<div class = "hobbies col-3">  
+                <i class="fa fa-${hobbies.icon}"></i> 
+                <p>${hobbies.title}</p>
+                </div>`;
+    }
+
+return document.querySelector('#hobbies').innerHTML = HTML;
+}
 
 // numbers
+function renderAchievements(list) {
+    let HTML = '';
+
+    if (!Array.isArray(list)) {
+        return console.error('ERROR: list not found');
+    }
+    if (list.length === 0) {
+        return console.error('ERROR: list is empty');
+    }
+
+    for (let i = 0; i < list.length; i++) {
+        const item = list[i];
+
+        HTML += `<div class="achievement col-3">
+                    <div class="center">
+                        <i class="fa fa-${item.icon}"></i>
+                        <br>
+                        <div class="texts">
+                            <h5 class="title">${item.title}</h5>
+                            <br>
+                            <div class="number">${item.number}</div>
+                        </div>
+                    </div>
+                </div>`;
+
+    }
+
+    return document.querySelector('#achievements').innerHTML = HTML;
+}
 
 // skills
 
@@ -23,4 +64,3 @@
 // contact me
 
 // footer
-

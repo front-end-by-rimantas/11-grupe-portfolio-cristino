@@ -1,0 +1,42 @@
+.mouse {
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+    width: 30px;
+    height: 42px;
+    border-radius: 18px;
+    background-color: white;
+    border: 2px solid #495057;
+}
+
+.mouse:after {
+    position: absolute;
+    content: "";
+    border: 8px solid #495057;
+    border-width: 8px 0px 0px 2px;
+    top: 20px;
+    left: 12px;
+    animation-name: mousePointer;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.mouse:hover {
+    cursor: pointer;
+}
+
+@keyframes mousePointer {
+    0% {
+        left: 12px;
+        top: 20px;
+    }
+    50% {
+        left: 12px;
+        top: 30px;
+    }
+    100% {
+        left: 12px;
+        top: 20px;
+    }
+}
