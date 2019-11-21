@@ -15,6 +15,7 @@ footer img {
     margin-top: -35px;
     width: 145px;
     height: 20px;
+    cursor: pointer;
 }
 
 footer>.row>.col-6>i {
