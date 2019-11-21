@@ -87,7 +87,7 @@ const services = [
      title: 'UX / UI DESIGN',
      p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
     },
-    {icon: 'square-o',
+    {icon: 'apple',
      title: 'IOS APP DESIGNER',
      p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
     },

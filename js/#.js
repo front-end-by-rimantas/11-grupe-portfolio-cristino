@@ -30,7 +30,7 @@ function renderServices (servicesList) {
         HTML  += `<div class = "services col-4">
                     <div class="wrapper">
                         <i class="fa fa-${services.icon}"></i>
-                        <p>${services.title}</p>
+                        <h5>${services.title}</h5>
                         <p>${services.p}</p>
                     </div>
                 </div>`;

@@ -154,20 +154,44 @@
     background-color: #fff;
 }
 /* <!-- about me+hobbies & interests end--> */
-#services {
+
+/* <!-- what i offer-services start--> */
+.services {
     display: inline-block;
-    padding: 50px 0 0 0;
-   
-}
-#services.wrapper {
-    display: inline-block;
-    padding: 20px;
-    
 }
 
-/* <!-- what i offer start -->
+.services .block {
+    display: inline-block;
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+    padding: 50px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
 
-<!-- what i offer end -->
+.services > .block > i {
+    display: inline-block;
+    line-height: 50px;
+    font-size: 30px;
+    color: var(--color-primary-red);
+}
+
+.services > .block > h5 {
+    display: inline-block;
+    width: 100%;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.services > .block > p {
+    display: inline-block;
+    width: 100%;
+    line-height: 25px;
+    font-size: 21px;
+}
+/* <!-- what i offer-services end--> */
 
 /*<!-- achievements start -->*/
 
@@ -225,4 +249,4 @@
 
 /*<!-- achievements end -->*/
 
-<!-- work participation start --><!-- work participation end --><!-- WORK EXPERTISE start --><!-- WORK EXPERTISE end --><!-- LATEST NEWS & BLOG start --><!-- LATEST NEWS & BLOG end --><!-- hire me start --><!-- hire me end --><!-- contact me start --><!-- contact me end -->*/
+/* <!-- work participation start --><!-- work participation end --><!-- WORK EXPERTISE start --><!-- WORK EXPERTISE end --><!-- LATEST NEWS & BLOG start --><!-- LATEST NEWS & BLOG end --><!-- hire me start --><!-- hire me end --><!-- contact me start --><!-- contact me end -->*/
