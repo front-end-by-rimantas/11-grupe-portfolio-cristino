@@ -153,12 +153,20 @@
 .hobbies>p:hover {
     background-color: #fff;
 }
-
-
 /* <!-- about me+hobbies & interests end--> */
-
+#services {
+    display: inline-block;
+    padding: 50px 0 0 0;
+   
+}
+#services.wrapper {
+    display: inline-block;
+    padding: 20px;
+    
+}
 
 /* <!-- what i offer start -->
+
 <!-- what i offer end -->
 
 /*<!-- achievements start -->*/
