@@ -191,6 +191,18 @@
     line-height: 25px;
     font-size: 21px;
 }
+
+.block:hover{
+   width: 100%;
+   border-bottom: 3px solid var(--color-primary-red);
+   transition: 1s;
+   /* margin-bottom: -3px; */
+}
+
+.block > h5:hover{
+    color: var(--color-primary-red);
+}
+
 /* <!-- what i offer-services end--> */
 
 /*<!-- achievements start -->*/
