@@ -20,6 +20,25 @@ function renderHobbies (hobbiesList) {
 return document.querySelector('#hobbies').innerHTML = HTML;
 }
 
+// what i offer-services
+function renderServices (servicesList) {
+    let HTML ='';
+
+    for (let i=0; i<services.length; i++) {
+        const services = servicesList[i];
+
+        HTML  += `<div class = "services col-4">
+                    <div class="wrapper">
+                        <i class="fa fa-${services.icon}"></i>
+                        <p>${services.title}</p>
+                        <p>${services.p}</p>
+                    </div>
+                </div>`;
+    }
+
+return document.querySelector ('#services').innerHTML = HTML;
+}
+
 // numbers
 function renderAchievements(list) {
     let HTML = '';
