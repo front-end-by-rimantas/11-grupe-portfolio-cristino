@@ -209,9 +209,9 @@
 
 .achievements .texts>.title {
     display: inline-block;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 600;
     line-height: 20px;
-    text-transform: uppercase;
 }
 
 
@@ -236,17 +236,22 @@
     position: relative;
 }
 
-.hire-me>.row>.h {
+.hire-me h {
     display: inline-block;
     width: 100%;
-    font-size: 18px;
+    font-size: 24px;
+    font-weight: 600;
     line-height: 20px;
+    margin-bottom: 8px;
     color: #fff;
 }
 
-.hire-me>.row>.p {
-    font-size: 18px;
-    margin-top: 10px;
+.hire-me p {
+    font-size: 15px;
+    font-weight: 400px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 
