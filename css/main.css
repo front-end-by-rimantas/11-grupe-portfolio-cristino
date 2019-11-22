@@ -153,13 +153,57 @@
 .hobbies>p:hover {
     background-color: #fff;
 }
-
-
 /* <!-- about me+hobbies & interests end--> */
 
+/* <!-- what i offer-services start--> */
+.services {
+    display: inline-block;
+}
 
-/* <!-- what i offer start -->
-<!-- what i offer end -->
+.services .block {
+    display: inline-block;
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+    padding: 50px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.services > .block > i {
+    display: inline-block;
+    line-height: 50px;
+    font-size: 30px;
+    color: var(--color-primary-red);
+}
+
+.services > .block > h5 {
+    display: inline-block;
+    width: 100%;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.services > .block > p {
+    display: inline-block;
+    width: 100%;
+    line-height: 25px;
+    font-size: 21px;
+}
+
+.block:hover{
+   width: 100%;
+   border-bottom: 3px solid var(--color-primary-red);
+   transition: 1s;
+   /* margin-bottom: -3px; */
+}
+
+.block > h5:hover{
+    color: var(--color-primary-red);
+}
+
+/* <!-- what i offer-services end--> */
 
 /*<!-- achievements start -->*/
 
@@ -278,3 +322,4 @@
 
 
 /* <!-- contact me end -->*/
+

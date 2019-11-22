@@ -7,6 +7,9 @@
 // about me+hobbies
 renderHobbies ( hobbies );
 
+// what i offer-services
+renderServices (services);
+
 // numbers
 renderAchievements(numbers);
 
