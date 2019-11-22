@@ -163,6 +163,10 @@
 
 /*<!-- achievements start -->*/
 
+.container-full {
+    padding: 0 0;
+}
+
 .bg-achievements {
     display: inline-block;
     width: 100%;
@@ -181,6 +185,8 @@
 
 .achievements {
     display: inline-block;
+    width: 100%;
+    padding: 10vh 0;
     text-align: center;
     vertical-align: center;
     position: relative;
