@@ -236,7 +236,7 @@
     position: relative;
 }
 
-.hire-me>.h {
+.hire-me>.row>.h {
     display: inline-block;
     width: 100%;
     font-size: 18px;
@@ -244,8 +244,8 @@
     color: #fff;
 }
 
-.hire-me>.p {
-    font-size: 18 px;
+.hire-me>.row>.p {
+    font-size: 18px;
     margin-top: 10px;
 }
 
