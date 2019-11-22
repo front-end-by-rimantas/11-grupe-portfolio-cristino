@@ -81,7 +81,33 @@ const numbers = [{
     }
 ];
 
-// skills
+// what i offer-services
+const services = [
+    {icon: 'desktop',
+     title: 'UX / UI DESIGN',
+     p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
+    },
+    {icon: 'apple',
+     title: 'IOS APP DESIGNER',
+     p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
+    },
+    {icon: 'camera',
+     title: 'PHOTOGRAPHY',
+     p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
+    },
+    {icon: 'leaf',
+     title: 'GRAPHIC DESIGNER',
+     p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
+    },
+    {icon: 'shield',
+     title: 'WEB SECURITY',
+     p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
+    },
+    {icon: 'clock-o',
+     title: '24 / 7',
+     p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
+    }
+]
 
 // latest work
 
