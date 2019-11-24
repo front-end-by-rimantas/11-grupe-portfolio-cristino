@@ -118,6 +118,7 @@
 
 .aboutme>.row>.col-7>a {
     display: inline-block;
+    text-decoration: none;
 }
 
 .interests {
@@ -196,7 +197,7 @@
    width: 100%;
    border-bottom: 3px solid var(--color-primary-red);
    transition: 1s;
-   /* margin-bottom: -3px; */
+   margin-bottom: -2px;
 }
 
 .block > h5:hover{
