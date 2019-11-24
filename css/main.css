@@ -261,8 +261,46 @@
 
 /*<!-- achievements end -->*/
 
+/* <!-- work participation start --> */
+.icon-top{
+    text-align: center;
+}
 
-/* <!-- work participation start --><!-- work participation end --><!-- WORK EXPERTISE start --><!-- WORK EXPERTISE end --><!-- LATEST NEWS & BLOG start --><!-- LATEST NEWS & BLOG end --><!-- hire me start --><!-- hire me end --> */
+.icon-top > i {
+    padding-top: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.icon-top > i::before{
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    border: 2px solid lightgrey;
+    border-radius: 50%;
+}
+
+.timeline-layout{
+    display: inline-block;
+    background-color: aqua;
+    position: relative;
+    
+}
+.timeline-layout::before{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    color: yellow; 
+    
+}
+
+
+/* <!-- work participation end --> */
+
+
+
+/* <!-- WORK EXPERTISE start --><!-- WORK EXPERTISE end --><!-- LATEST NEWS & BLOG start --><!-- LATEST NEWS & BLOG end --><!-- hire me start --><!-- hire me end --> */
 
 
 /* <!-- contact me start --> */
