@@ -192,7 +192,6 @@
     line-height: 25px;
     font-size: 21px;
 }
-
 .block:hover{
    width: 100%;
    border-bottom: 3px solid var(--color-primary-red);
@@ -314,9 +313,6 @@
     float: right;
     margin: 0 15px;
 }
-.right .data{
-    margin: 0 15px;
-}
 
 .left .data::after{
     border: 2px solid #161c2d;
@@ -333,10 +329,10 @@
     display: inline-block;
     padding: 24px;
     border: 1px solid lightgrey;
-    border-radius: 4px;
+    border-radius: 4px;  
 }
 
-.right .roles{
+.right > .roles{
     text-align: right;
 }
 
@@ -346,7 +342,7 @@
     position: absolute;
     width: 12px;
     height: 12px;
-    margin-top: -50px;
+    margin-top: -150px;
     margin-left: 33px;
     background-color: #f8f9fa;
     border-radius: 50%;
@@ -356,17 +352,17 @@
     color: var(--color-primary-red);
 }
 
-.roles h5{
+.roles > h5{
     font-size: 18px;
     margin-bottom: 0;
 }
 
-.roles h6{
+.roles > h6{
     font-size: 14px;
     font-weight: normal;
 }
 
-.roles p {
+.roles > p {
     font-size: 20px;
     line-height: 28px;
     margin: 16px 0 0;
