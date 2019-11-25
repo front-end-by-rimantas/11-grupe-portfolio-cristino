@@ -281,6 +281,7 @@
 
 /*<!-- achievements end -->*/
 
+
 /* <!-- hire me start --> */
 
 .bg-hire-me {
@@ -321,8 +322,33 @@
 
 /* <!-- hire me end --> */
 
-<<<<<<< HEAD
-/* <!-- work participation start --><!-- work participation end --><!-- WORK EXPERTISE start --><!-- WORK EXPERTISE end --><!-- LATEST NEWS & BLOG start --> */
+
+/* <!-- work participation start --><!-- work participation end --><!-- LATEST NEWS & BLOG start --> */
+
+
+/*<!-- WORK EXPERTISE start -->*/
+
+.expertise {
+    display: inline-block;
+    width: 100%;
+    height: 90vh;
+}
+
+.surprise {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.expertise>progress-bar>p {
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+/*<!-- WORK EXPERTISE end -->*/
 
 .blog p {
     width: auto;
@@ -393,10 +419,10 @@
 
 
 /* <!-- LATEST NEWS & BLOG end --><!-- hire me start --><!-- hire me end --> */
-=======
->>>>>>> 76b9a21a93c0ecc2bf78814c158f60bd9e8b5e1d
+
 
 /*<!-- work participation start --><!-- work participation end --><!-- WORK EXPERTISE start --><!-- WORK EXPERTISE end --><!-- LATEST NEWS & BLOG start --><!-- LATEST NEWS & BLOG end --><!-- hire me start --><!-- hire me end --><!-- contact me start --><!-- contact me end -->*/
+
 
 /* <!-- contact me start --> */
 
