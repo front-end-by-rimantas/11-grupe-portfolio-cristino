@@ -32,11 +32,34 @@
     color: var(--color-primary-red);
 }
 
+
+/* =======baltos raides permatomas  fonas on hover raudonas fonas========== */
+
+.btn3 {
+    display: inline-block;
+    padding: 12px 24px;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
 .btn1:hover {
     background-color: var(--color-darkGrey)
 }
 
 .btn2:hover {
     color: white;
+    background-color: var(--color-primary-red);
+}
+
+.btn3:hover {
+    color: white;
+    border: 1px solid var(--color-primary-red);
     background-color: var(--color-primary-red);
 }

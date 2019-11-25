@@ -28,7 +28,7 @@ function renderServices (servicesList) {
         const services = servicesList[i];
 
         HTML  += `<div class = "services col-4">
-                    <div class="block">
+                    <div class="wrapper">
                         <i class="fa fa-${services.icon}"></i>
                         <h5>${services.title}</h5>
                         <p>${services.p}</p>

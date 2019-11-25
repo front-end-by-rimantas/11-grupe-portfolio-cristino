@@ -38,25 +38,27 @@
     background-position: center;
     border: 5px solid #DEE2E6;
     border-radius: 100px;
-    margin-top: 100px;
+    margin: 90px 0px 10px 0px;
 }
 
-.hero>h3 {
+.hero h3 {
     display: inline-block;
     width: 100%;
     font-size: 18px;
     text-transform: capitalize;
-    margin: 16px 0px 8px;
+    margin: 16px 0px 10px;
 }
 
-.hero>h1 {
+.hero h1 {
     display: inline-block;
     width: 100%;
     font-size: 50px;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
-.hero>p {
+.hero p {
     display: inline-block;
     width: 100%;
     font-size: 15px;
@@ -118,6 +120,7 @@
 
 .aboutme>.row>.col-7>a {
     display: inline-block;
+    text-decoration: none;
 }
 
 .interests {
@@ -158,10 +161,64 @@
 /* <!-- about me+hobbies & interests end--> */
 
 
-/* <!-- what i offer start -->
-<!-- what i offer end -->
+/* <!-- what i offer-services start--> */
+
+.services {
+    display: inline-block;
+}
+
+.services .block {
+    display: inline-block;
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+    padding: 50px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.services>.block>i {
+    display: inline-block;
+    line-height: 50px;
+    font-size: 30px;
+    color: var(--color-primary-red);
+}
+
+.services>.block>h5 {
+    display: inline-block;
+    width: 100%;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.services>.block>p {
+    display: inline-block;
+    width: 100%;
+    line-height: 25px;
+    font-size: 21px;
+}
+.block:hover{
+   width: 100%;
+   border-bottom: 3px solid var(--color-primary-red);
+   transition: 1s;
+   margin-bottom: -2px;
+
+}
+
+.block>h5:hover {
+    color: var(--color-primary-red);
+}
+
+
+/* <!-- what i offer-services end--> */
+
 
 /*<!-- achievements start -->*/
+
+.container-full {
+    padding: 0 0;
+}
 
 .bg-achievements {
     display: inline-block;
@@ -179,46 +236,288 @@
     position: absolute;
 }
 
-.achievement {
+.achievements {
     display: inline-block;
+    width: 100%;
+    padding: 10vh 0;
     text-align: center;
     vertical-align: center;
     position: relative;
 }
 
-.achievement i {
+.achievements i {
     display: inline-block;
-    font-size: 50px;
-    line-height: 90px;
+    width: 100%;
+    font-size: 45px;
+    font-weight: 400px;
+    line-height: 67.5px;
     text-align: center;
-    color: #c52c20 !important;
+    color: var(--color-primary-red) !important;
 }
 
-.achievement .texts {
+.achievements .texts {
     display: inline-block;
-    margin-left: 15px;
-    line-height: 30px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
     color: #fff !important;
 }
 
-.achievement .texts>.number {
+.achievements .texts>.number {
     display: inline-block;
-    font-size: 40px;
-    line-height: 50px;
+    width: 100%;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
 }
 
-.achievement .texts>.title {
+.achievements .texts>.title {
     display: inline-block;
-    font-size: 18px;
-    line-height: 20px;
-    text-transform: uppercase;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #fff !important;
 }
 
 
 /*<!-- achievements end -->*/
 
+/* <!-- work participation start --> */
+.icon-top{
+    text-align: center;
+}
 
-/* <!-- work participation start --><!-- work participation end --><!-- WORK EXPERTISE start --><!-- WORK EXPERTISE end --><!-- LATEST NEWS & BLOG start --><!-- LATEST NEWS & BLOG end --><!-- hire me start --><!-- hire me end --> */
+.icon-top > i {
+    padding-top: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.icon-top > i::before{
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    border: 2px solid lightgrey;
+    border-radius: 50%;
+}
+
+.timeline-layout{
+    display: inline-block;
+    padding: 24px 0 0 ;
+    position: relative;
+
+}
+.timeline-layout::before{
+    content: '';
+    position: absolute;
+    width: 2px;
+    top: -5px;
+    bottom: 0;
+    left: 50%;
+    background-color: lightgrey;     
+}
+
+.time-line-item{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.data {
+    display:inline-block;
+    padding: 8px 24px;
+    font-size: 15px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px lightgrey;
+}
+.left .data{
+    float: right;
+    margin: 0 15px;
+}
+
+.left .data::after{
+    border: 2px solid #161c2d;
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    margin-left: 48px;
+    background-color: #f8f9fa;
+    border-radius: 50%;
+}
+
+.roles{
+    display: inline-block;
+    padding: 24px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;  
+}
+
+.right > .roles{
+    text-align: right;
+}
+
+.right .roles::after{
+    border: 2px solid #161c2d;
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    margin-top: -150px;
+    margin-left: 33px;
+    background-color: #f8f9fa;
+    border-radius: 50%;
+}
+
+.roles:hover h5{
+    color: var(--color-primary-red);
+}
+
+.roles > h5{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.roles > h6{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.roles > p {
+    font-size: 20px;
+    line-height: 28px;
+    margin: 16px 0 0;
+    text-align: left;
+    word-spacing: 1px;
+}
+
+/* <!-- work participation end --> */
+
+
+
+/* <!-- WORK EXPERTISE start --><!-- WORK EXPERTISE end --><!-- LATEST NEWS & BLOG start --><!-- LATEST NEWS & BLOG end --><!-- hire me start --><!-- hire me end --> */
+
+/* <!-- hire me start --> */
+
+.bg-hire-me {
+    display: inline-block;
+    width: 100%;
+    height: 40vh;
+    background-image: url(../img/portfolio/hireme.jpg);
+    background-position-x: left;
+    background-position-y: top;
+}
+
+.hire-me {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    vertical-align: center;
+    position: relative;
+}
+
+.hire-me h {
+    display: inline-block;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.hire-me p {
+    font-size: 15px;
+    font-weight: 400px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+/* <!-- hire me end --> */
+
+
+/* <!-- work participation start --><!-- work participation end --><!-- WORK EXPERTISE start --><!-- WORK EXPERTISE end --><!-- LATEST NEWS & BLOG start --> */
+
+.blog p {
+    width: auto;
+}
+
+
+/* .blog>.row>.blog1>p {} */
+
+.blog img {
+    margin-bottom: 20px;
+}
+
+.blog h5 {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    transition: all 0.5s ease;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin: 20px 5px;
+}
+
+.blog h5:hover {
+    color: red;
+}
+
+#tag {
+    float: right;
+}
+
+#arrowRight {
+    font-size: 75%;
+    margin-top: 5px;
+    margin-right: 120px;
+    margin-bottom: 30px;
+}
+
+.blog a {
+    text-decoration: none;
+    color: #222;
+    margin: 0px 5px;
+}
+
+.blog a:hover {
+    color: red;
+}
+
+.blog>.row>.blog1>img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.blog>.row>.blog2>img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.blog>.row>.blog3>img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.blog1,
+.blog2,
+.blog3 {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-top: 50px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+
+/* <!-- LATEST NEWS & BLOG end --><!-- hire me start --><!-- hire me end --> */
+
+
+/*<!-- work participation start --><!-- work participation end --><!-- WORK EXPERTISE start --><!-- WORK EXPERTISE end --><!-- LATEST NEWS & BLOG start --><!-- LATEST NEWS & BLOG end --><!-- hire me start --><!-- hire me end --><!-- contact me start --><!-- contact me end -->*/
 
 
 /* <!-- contact me start --> */
@@ -259,7 +558,6 @@
     width: 100%;
     line-height: 26px;
     margin-bottom: 38px;
-    =
 }
 
 .input2 {
