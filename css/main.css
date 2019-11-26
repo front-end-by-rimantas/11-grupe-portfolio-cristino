@@ -611,15 +611,18 @@
     width: 100%;
     line-height: 26px;
     margin-bottom: 38px;
+    padding-left: 12px;
 }
 
 .input2 {
     display: inline-block;
 }
 
-.input2 input {
+.input2 textarea {
     width: 100%;
     height: 166px;
+    padding: 6px 12px;
+    color: #777;
 }
 
 .sendMessage {
