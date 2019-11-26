@@ -132,35 +132,55 @@
 }
 
 .hobbies {
-    margin: 24px 0 0;
-    font-size: 17px;
+    display: inline-block;
+    width: 20%;
+    float: left;
+    margin: 20px;
+    line-height: 48px;
+    background-color: #f8f9fa;
+    border: 2px solid transparent;
+}
+
+.hobbies:hover{
+    display: inline-block;
+    border: 2px solid lightgrey;
+    background-color: transparent;
+    border-radius: 3px;
+    box-shadow: -1px 3px 11px 0 rgba(0, 0, 0, 0.06);
 }
 
 .hobbies>i {
     display: inline-block;
-    width: 25%;
-    line-height: 50px;
-    font-size: 30px;
+    width: calc(40% - 24px);
+    margin: 17px 0;
+    padding: 5px 15px;
+    position: relative;
     text-align: center;
-    background-color: #f8f9fa;
+    box-sizing: border-box;
 }
 
-.hobbies>i:hover {
-    background-color: #fff;
-    color: #B92B21;
+.hobbies:hover i{
+    color: var(--color-primary-red);
 }
 
 .hobbies>p {
     display: inline-block;
-    width: 70%;
+    box-sizing: border-box;
+    width: calc(60% - 24px);
+    padding: 5px 15px;
     line-height: 50px;
-    background-color: #f8f9fa;
 }
 
-.hobbies>p:hover {
-    background-color: #fff;
+.hobbies>p::before{
+    content: '';
+    width: 2px;
+    height: 62px;
+    position: absolute;
+    margin-left: -22px;
+    margin-top: -6px;
+    background-color: lightgrey;
+    border-radius: 5px;
 }
-
 
 /* <!-- about me+hobbies & interests end--> */
 
@@ -220,7 +240,7 @@
 }
 
 .block:hover {
-    /* border: transparent; */
+    border: 1px solid transparent;
     box-shadow: -1px 3px 11px 0 rgba(0, 0, 0, 0.06);
 }
 
