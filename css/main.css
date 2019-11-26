@@ -162,7 +162,6 @@
 
 
 /* <!-- what i offer-services start--> */
-
 .services {
     display: inline-block;
 }
@@ -172,7 +171,7 @@
     float: left;
     text-align: center;
     margin-top: 30px;
-    padding: 50px 20px;
+    padding: 50px 0 25px 0;
     border: 1px solid lightgrey;
     border-radius: 5px;
 }
@@ -189,27 +188,53 @@
     width: 100%;
     line-height: 50px;
     font-size: 20px;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .services>.block>p {
     display: inline-block;
     width: 100%;
+    padding: 0 20px;
     line-height: 25px;
     font-size: 21px;
 }
-.block:hover{
-   width: 100%;
-   border-bottom: 3px solid var(--color-primary-red);
-   transition: 1s;
-   margin-bottom: -2px;
 
+.block::after{
+    content: '';
+    display: inline-block;
+    margin-bottom: -33px;
+    padding: 0 1px;
+    height: 2px;
+    width: 0px;
+    transition: width 1s ease, background-color 1s ease;
 }
 
-.block>h5:hover {
+.block:hover::after{
+    width: 100%;
+    background-color: var(--color-primary-red);
+}
+
+.block:hover{
+    /* border: transparent; */
+    box-shadow: -1px 3px 11px 0 rgba(0, 0, 0, 0.06);
+}
+
+.block:hover h5{
     color: var(--color-primary-red);
 }
 
+.block:hover i{
+    animation: bounce 2s linear infinite;
+}
+
+@keyframes bounce{
+    0%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
 
 /* <!-- what i offer-services end--> */
 
