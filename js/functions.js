@@ -12,8 +12,8 @@ function renderHobbies (hobbiesList) {
         const hobbies = hobbiesList[i];
 
         HTML += `<div class = "hobbies col-3">  
-                <i class="fa fa-${hobbies.icon}"></i> 
-                <p>${hobbies.title}</p>
+                    <i class = "fa fa-${hobbies.icon}"></i> 
+                    <p>${hobbies.title}</p>
                 </div>`;
     }
 
