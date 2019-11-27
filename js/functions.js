@@ -74,7 +74,6 @@ function renderAchievements(list) {
 function renderTimeline (timelineList) {
     let HTML = '';
     
-    
     for (let i=0; i<timelineList.length; i++) {
         const timeline = timelineList[i];
         let position = '';
@@ -89,7 +88,7 @@ function renderTimeline (timelineList) {
                         </div>
                     </div>
                         <div class = "timeline-item ${position}">
-                            <div class = "timeline-text">
+                            <div class = "timeline-text ${position}">
                                 <h5>${timeline.title}</h5>
                                 <h6>${timeline.role}</h6>
                                 <p>${timeline.p}</p>
