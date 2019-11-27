@@ -12,7 +12,7 @@ footer p {
 }
 
 footer img {
-    margin-top: -35px;
+    margin: 50px 0px 20px 0px;
     width: 145px;
     height: 20px;
     cursor: pointer;
@@ -43,19 +43,40 @@ footer i:hover {
     top: 80%;
     right: 0%;
     padding-top: 25px;
-    border: 1px solid var(--color-lightGrey);
+    border-top: 1px solid #777;
 }
 
 footer>.row>.col-6>.footerBottom>i {
     color: var(--color-primary-red);
     background-color: transparent;
+    font-size: 80%;
+    padding-top: 5px;
 }
 
 footer>.row>.col-6>.footerBottom>i:hover {
     border: none;
 }
 
-footer a {
+footer>.row>.col-6>.footerBottom>a {
     color: white;
     text-decoration: none;
+}
+
+footer .bottomButton {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    border: 1px solid transparent;
+    color: white;
+    top: 81%;
+    left: 96%;
+    font-size: 70%;
+    font-weight: 100;
+    background-color: #777;
+    padding-top: 9px;
+    border-radius: 5px;
+}
+
+.bottomButton:hover {
+    background-color: var(--color-primary-red);
 }
