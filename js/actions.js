@@ -14,7 +14,8 @@ renderServices (services);
 renderAchievements(numbers);
 
 
-// skills
+// work participation section
+renderTimeline (timeline);
 
 // latest work
 
