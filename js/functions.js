@@ -5,10 +5,10 @@
 // hero
 
 // about me+hobbies
-function renderHobbies (hobbiesList) {
+function renderHobbies(hobbiesList) {
     let HTML = '';
 
-    for (let i=0; i<hobbies.length; i++) {
+    for (let i = 0; i < hobbies.length; i++) {
         const hobbies = hobbiesList[i];
 
         HTML += `<div class = "hobbies col-3">  
@@ -17,17 +17,17 @@ function renderHobbies (hobbiesList) {
                 </div>`;
     }
 
-return document.querySelector('#hobbies').innerHTML = HTML;
+    return document.querySelector('#hobbies').innerHTML = HTML;
 }
 
 // what i offer-services
-function renderServices (servicesList) {
-    let HTML ='';
+function renderServices(servicesList) {
+    let HTML = '';
 
-    for (let i=0; i<services.length; i++) {
+    for (let i = 0; i < services.length; i++) {
         const services = servicesList[i];
 
-        HTML  += `<div class = "services col-4">
+        HTML += `<div class = "services col-4">
                     <div class="block">
                         <i class="fa fa-${services.icon}"></i>
                         <h5>${services.title}</h5>
@@ -36,10 +36,11 @@ function renderServices (servicesList) {
                 </div>`;
     }
 
-return document.querySelector ('#services').innerHTML = HTML;
+    return document.querySelector('#services').innerHTML = HTML;
 }
 
-// numbers
+// achievements
+
 function renderAchievements(list) {
     let HTML = '';
 
@@ -60,7 +61,10 @@ function renderAchievements(list) {
                         <div class="texts">
                             <h5 class="title">${item.title}</h5>
                             <br>
-                            <div class="number">${item.number}</div>
+                            <div class="number"
+                            data-number_from="0"
+                            data-number_to="${item.number}"
+                            data-time="3">${item.number}</div>
                         </div>
                     </div>
                 </div>`;
@@ -69,6 +73,55 @@ function renderAchievements(list) {
 
     return document.querySelector('#achievements').innerHTML = HTML;
 }
+
+function sectionNumberCounter(target) {
+    const targetSection = document.querySelector(target);
+    const targetSectionPositionY = targetSection.offsetTop;
+    const sectionAnimationStatus = targetSection.getAttribute('data-animated_counter');
+    if (sectionAnimationStatus && sectionAnimationStatus === 'true') {
+        return;
+    }
+
+    if (window.scrollY > targetSectionPositionY) {
+        targetSection.dataset.animated_counter = 'true';
+    }
+
+    const elementsToAnimate = targetSection.dataset.animated_element;
+    if (!elementsToAnimate ||
+        elementsToAnimate === '') {
+        return;
+    }
+
+    const animations = targetSection.querySelectorAll(elementsToAnimate);
+
+    for (let i = 0; i < animations.length; i++) {
+        const anime = animations[i];
+        let countFrom = anime.dataset.number_from ? parseInt(anime.dataset.number_from) : 0;
+        console.log(anime.dataset.number_to);
+        let countTo = anime.dataset.number_to ? parseInt(anime.dataset.number_to) : 100;
+        let time = anime.dataset.time ? parseInt(anime.dataset.time) : 10;
+        const steps = 100;
+
+        const allowedTimeUnits = ['s', 'ms'];
+        let timeUnit = 's';
+        if (anime.dataset.time_unit &&
+            allowedTimeUnits.indexOf(anime.dataset.time_unit) !== -1) {
+            timeUnit = anime.dataset.time_unit;
+        }
+
+        anime.textContent = countFrom;
+
+        let animationFrame = 0;
+        const timer = setInterval(() => {
+            anime.textContent = Math.round((countTo - countFrom) / steps * animationFrame);
+            animationFrame++;
+            if (animationFrame === steps + 1) {
+                clearInterval(timer);
+            }
+        }, time * 1000 / (steps + 1));
+    }
+}
+
 
 // skills
 
