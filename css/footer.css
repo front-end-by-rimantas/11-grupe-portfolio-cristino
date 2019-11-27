@@ -49,6 +49,8 @@ footer i:hover {
 footer>.row>.col-6>.footerBottom>i {
     color: var(--color-primary-red);
     background-color: transparent;
+    font-size: 80%;
+    padding-top: 5px;
 }
 
 footer>.row>.col-6>.footerBottom>i:hover {
