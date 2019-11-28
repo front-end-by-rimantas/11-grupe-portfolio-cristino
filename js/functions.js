@@ -78,6 +78,7 @@ function sectionNumberCounter(target) {
     const targetSection = document.querySelector(target);
     const targetSectionPositionY = targetSection.offsetTop;
     const sectionAnimationStatus = targetSection.getAttribute('data-animated_counter');
+
     if (sectionAnimationStatus && sectionAnimationStatus === 'true') {
         return;
     }
@@ -87,6 +88,7 @@ function sectionNumberCounter(target) {
     }
 
     const elementsToAnimate = targetSection.dataset.animated_element;
+
     if (!elementsToAnimate ||
         elementsToAnimate === '') {
         return;
