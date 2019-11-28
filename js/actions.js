@@ -17,7 +17,8 @@ window.addEventListener('scroll', () => {
 });
 
 
-// skills
+// work participation section
+renderTimeline (timeline);
 
 // latest work
 
