@@ -109,4 +109,5 @@
 .hAh>.row>.col-3>i:hover {
     background-color: #B92B21;
     cursor: pointer;
+    border: 1px solid transparent;
 }

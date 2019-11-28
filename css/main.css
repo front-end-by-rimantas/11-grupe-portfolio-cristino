@@ -501,6 +501,15 @@
     color: rgba(255, 255, 255, 0.5);
 }
 
+.hire-me a {
+    text-decoration: none;
+}
+
+.hire-me i {
+    font-size: 50%;
+    padding: 6px 0px 0px 5px;
+}
+
 
 /* <!-- hire me end --> */
 
