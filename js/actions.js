@@ -5,13 +5,16 @@
 // hero
 
 // about me+hobbies
-renderHobbies ( hobbies );
+renderHobbies(hobbies);
 
 // what i offer-services
-renderServices (services);
+renderServices(services);
 
 // numbers
 renderAchievements(numbers);
+window.addEventListener('scroll', () => {
+    sectionNumberCounter('#achievements');
+});
 
 
 // work participation section
