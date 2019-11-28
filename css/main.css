@@ -141,7 +141,7 @@
     border: 2px solid transparent;
 }
 
-.hobbies:hover {
+.hobbies:hover{
     display: inline-block;
     border: 2px solid lightgrey;
     background-color: transparent;
@@ -159,7 +159,7 @@
     box-sizing: border-box;
 }
 
-.hobbies:hover i {
+.hobbies:hover i{
     color: var(--color-primary-red);
 }
 
@@ -171,7 +171,7 @@
     line-height: 50px;
 }
 
-.hobbies>p::before {
+.hobbies>p::before{
     content: '';
     width: 2px;
     height: 62px;
@@ -181,7 +181,6 @@
     background-color: lightgrey;
     border-radius: 5px;
 }
-
 
 /* <!-- about me+hobbies & interests end--> */
 
@@ -222,8 +221,7 @@
     width: 100%;
     padding: 0 20px;
     line-height: 25px;
-    font-size: 15px;
-    color: var(--color-darkGrey);
+    font-size: 21px;
 }
 
 .block::after {
