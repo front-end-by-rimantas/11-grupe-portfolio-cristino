@@ -127,6 +127,34 @@ function sectionNumberCounter(target) {
 
 // skills
 
+// work participation section
+function renderTimeline (timelineList) {
+    let HTML = '';
+    
+    for (let i=0; i<timelineList.length; i++) {
+        const timeline = timelineList[i];
+        let position = '';
+        
+        if (timelineList[i].position) {
+         position = 'position';
+        }
+
+        HTML += `<div class = "timeline-item ${position}">
+                        <div class = "timeline-period ${position}">
+                            ${timeline.period}
+                        </div>
+                    </div>
+                        <div class = "timeline-item ${position}">
+                            <div class = "timeline-text ${position}">
+                                <h5>${timeline.title}</h5>
+                                <h6>${timeline.role}</h6>
+                                <p>${timeline.p}</p>
+                            </div>
+                        </div>`;
+    }  
+    return document.querySelector ('#timeline').innerHTML = HTML;
+}
+
 // latest work
 
 // job history
