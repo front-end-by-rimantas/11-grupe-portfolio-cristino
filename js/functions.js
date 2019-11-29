@@ -93,7 +93,7 @@ function renderSkills(list) {
 }
 
 function progressBarAnimation() {
-    const myPositionY = scrollY + window.innerHeight; // analogiska: window.scrollY;
+    const myPositionY = scrollY + window.innerHeight;
     const progressBars = document.querySelectorAll('.progress-bar');
 
     for (let i = 0; i < progressBars.length; i++) {
@@ -104,14 +104,12 @@ function progressBarAnimation() {
         const itemHeight = parseFloat(getComputedStyle(item).height);
         if (item.offsetTop + itemHeight > myPositionY) {
             continue;
-            // break;       // galima nes jei nematai einamojo, tai ir kitu matyti negali, tai ciklas baigtas
+
         }
-        // kadangi animacija ant sio elemento dar neigyvendinta - animuojame
         item.dataset.animated = 'done';
-        // animuojame procento reiksmes keitimasi nuo 0 iki nurodytos vertes
         const valueDOM = item.querySelector('.texts > .value');
         const value = parseInt(item.dataset.value);
-        const time = 3; // seconds
+        const time = 3;
         let currentStep = 0;
 
         const timer = setInterval(() => {
