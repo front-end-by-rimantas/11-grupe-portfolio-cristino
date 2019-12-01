@@ -155,6 +155,41 @@ function renderTimeline(timelineList) {
 
 // services
 
+//gallery
+function renderPortfolio(list) {
+    let HTML = '';
+    let filterHTML = '';
+    let galleryHTML = '';
+
+    // sugeneruoti filtravima
+    filterHTML = `<div class="item">filter</div>
+    <div class="item">filter</div>
+    <div class="item">filter</div>
+    <div class="item">filter</div>
+    <div class="item">filter</div>`;
+
+    //sugeneruoti darbus
+    for (let i = 0; i < list.length; i++) {
+        const work = list[i];
+        console.log(work);
+        galleryHTML += `<div class="item">
+        <img src="./img/blog/${work.photo}"
+        alt="${work.title}">
+    </div>`;
+    }
+    //sugeneruoti darbus
+    HTML += ` <div class="gallery">
+        <div class="filter">
+            ${filterHTML}
+        </div>
+        <div class="list">
+            ${galleryHTML}
+        </div>
+        </div>`;
+    const DOMgallery = document.querySelector('#porfolio_gallery');
+    DOMgallery.innerHTML = HTML;
+}
+
 // testimonials
 
 // contact me

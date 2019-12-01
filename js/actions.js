@@ -26,6 +26,9 @@ renderTimeline(timeline);
 // job history
 
 // services
+//gallery
+
+renderPortfolio(gallery);
 
 // testimonials
 
