@@ -500,10 +500,26 @@
     margin-bottom: 16px;
     color: rgba(255, 255, 255, 0.5);
 }
-
-
 /* <!-- hire me end --> */
 
+/* <!-----------TESTIMONIALS start---------------!> */
+.testimonials .section-title{
+    display: inline-block;
+    width: 60%;
+}
+
+#testimonials{
+    display: inline-block;
+    
+}
+
+.testimonials .image-testi{
+    display: inline-block;
+    width: calc(40% - 4px);
+    height: 100vh;
+    background: url(../img/portfolio/testi.jpg) no-repeat center/cover;
+}
+/* <!-------TESTIMONIALS end-----------!> */
 
 /* <!-- work participation start --><!-- work participation end --><!-- WORK EXPERTISE start --><!-- WORK EXPERTISE end --><!-- LATEST NEWS & BLOG start --> */
 
