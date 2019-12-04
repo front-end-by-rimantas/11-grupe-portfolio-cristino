@@ -144,37 +144,37 @@ const timeline = [{
 
 //gallery
 
-const gallery = [{
-        photo: '01.jpg',
-        title: 'klaviatura',
-        tags: ['web design']
-    },
-    {
-        photo: '04.jpg',
-        title: 'ausinesIrLapas',
-        tags: ['branding']
-    },
-    {
-        photo: '02.jpg',
-        title: 'puodelis',
-        tags: ['studio']
-    },
-    {
-        photo: '03.jpg',
-        title: 'stalasIrKede',
-        tags: ['graphics']
-    },
-    {
-        photo: '05.jpg',
-        title: 'fotoaparatas',
-        tags: ['web design']
-    },
-    {
-        photo: '06.jpg',
-        title: 'kompiuterisIrArbata',
-        tags: ['Branding']
-    },
-]
+// const gallery = [{
+//         photo: '01.jpg',
+//         title: 'klaviatura',
+//         tags: ['web design']
+//     },
+//     {
+//         photo: '04.jpg',
+//         title: 'ausinesIrLapas',
+//         tags: ['branding']
+//     },
+//     {
+//         photo: '02.jpg',
+//         title: 'puodelis',
+//         tags: ['studio']
+//     },
+//     {
+//         photo: '03.jpg',
+//         title: 'stalasIrKede',
+//         tags: ['graphics']
+//     },
+//     {
+//         photo: '05.jpg',
+//         title: 'fotoaparatas',
+//         tags: ['web design']
+//     },
+//     {
+//         photo: '06.jpg',
+//         title: 'kompiuterisIrArbata',
+//         tags: ['Branding']
+//     },
+// ]
 
 // testimonials
 

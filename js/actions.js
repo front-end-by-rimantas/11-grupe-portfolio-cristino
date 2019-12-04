@@ -28,7 +28,7 @@ renderTimeline(timeline);
 // services
 //gallery
 
-renderPortfolio(gallery);
+// renderPortfolio(gallery);
 
 // testimonials
 
