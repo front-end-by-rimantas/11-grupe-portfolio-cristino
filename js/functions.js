@@ -71,28 +71,31 @@ function renderAchievements(list) {
 }
 
 // skills
-function renderSkills(list) {
+function renderProgressBars(list, divId) {
     let HTML = '';
 
     for (let i = 0; i < list.length; i++) {
-        const skills = list[i];
-        HTML += `<div class="progress-bar" data-value="${skills.value}">
+        const item = list[i];
+        HTML += `<div class="progress-bar" data-value="${item.value}">
                     <div class="texts">
-                        <div class="label">${skills.title}</div>
+                        <div class="label">${item.title}</div>
                         <div class="value">0%</div>
                     </div>
                     <div class="full">
-                        <div class="bar" style="width: ${skills.value}%;">
+                        <div class="bar" style="width: ${item.value}%;">
                             <div class="loading"></div>
                         </div>
                     </div>
                 </div>`;
     }
 
-    return document.querySelector('#skills').innerHTML = HTML;
+    return document.querySelector(divId).innerHTML = HTML;
 }
 
+
+
 function progressBarAnimation() {
+    document.getElementById("designbtn").click();
     const myPositionY = scrollY + window.innerHeight;
     const progressBars = document.querySelectorAll('.progress-bar');
 
@@ -123,6 +126,62 @@ function progressBarAnimation() {
 }
 
 
+
+document.getElementById("designbtn").addEventListener("click", function() {
+    document.getElementById("designbtn").classList.add("active");
+    document.getElementById("languagebtn").classList.remove("active");
+    document.getElementById("webbtn").classList.remove("active");
+
+
+    document.getElementById("language").style.display = "none";
+    document.getElementById("design").style.display = "block";
+    document.getElementById("web").style.display = "none";
+
+
+});
+
+document.getElementById("languagebtn").addEventListener("click", function() {
+    document.getElementById("designbtn").classList.remove("active");
+    document.getElementById("languagebtn").classList.add("active");
+    document.getElementById("webbtn").classList.remove("active");
+
+
+
+    document.getElementById("language").style.display = "block";
+    document.getElementById("design").style.display = "none";
+    document.getElementById("web").style.display = "none";
+
+
+});
+
+document.getElementById("webbtn").addEventListener("click", function() {
+    document.getElementById("designbtn").classList.remove("active");
+    document.getElementById("languagebtn").classList.remove("active");
+    document.getElementById("webbtn").classList.add("active");
+
+    document.getElementById("language").style.display = "none";
+    document.getElementById("design").style.display = "none";
+    document.getElementById("web").style.display = "block";
+
+
+});
+
+
+// document.getElementById("language").style.display = "none";
+// document.getElementById("design").style.display = "none";
+// document.getElementById("web").style.display = "none";
+// console.writeline(kdflads);
+
+// document.getElementById("languagebtn").addEventListener("click", renderLanguageSkills);
+// document.getElementById("design").style.display = "none";
+// document.getElementById("web").style.display = "none";
+// console.writeline(blablabla);
+
+// document.getElementById("webbtn").addEventListener("click", renderWebSkills);
+// document.getElementById("design").style.display = "none";
+// document.getElementById("language").style.display = "none";
+
+
 // latest work
 
 // job history
@@ -132,5 +191,3 @@ function progressBarAnimation() {
 // testimonials
 
 // contact me
-
-// footer

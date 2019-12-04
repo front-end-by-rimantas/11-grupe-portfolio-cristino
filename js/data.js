@@ -115,54 +115,47 @@ const services = [{
 
 // work expertise
 
-const skills = [{
+const designskills = [{
         title: 'HTML',
-        value: 84,
-        tags: ['design']
+        value: 84
     },
 
     {
         title: 'CSS',
-        value: 75,
-        tags: ['design']
+        value: 75
     },
 
     {
         title: 'JQuery',
-        value: 79,
-        tags: ['design']
-    },
+        value: 79
+    }
+];
 
-    {
+const languageskills = [{
         title: 'English',
-        value: 84,
-        tags: ['language']
+        value: 84
     },
 
     {
         title: 'Spanish',
-        value: 75,
-        tags: ['language']
+        value: 75
     },
 
     {
         title: 'German',
-        value: 79,
-        tags: ['language']
-    },
+        value: 79
+    }
+];
 
-    {
+const webskills = [{
         title: 'Photoshop',
-        value: 84,
-        tags: ['web']
+        value: 84
     },
 
     {
         title: 'Sketch',
-        value: 75,
-        tags: ['web']
+        value: 75
     }
-
 ];
 
 // latest work

@@ -24,7 +24,12 @@ renderAchievements(numbers);
 
 // skills
 
-renderSkills(skills);
+renderProgressBars(designskills, '#design');
+renderProgressBars(languageskills, '#language');
+renderProgressBars(webskills, '#web');
+// renderDesignSkills(designskills);
+// renderLanguageSkills(languageskills);
+// renderWebSkills(webskills);
 
 // latest work
 
