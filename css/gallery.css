@@ -40,6 +40,8 @@
         .portfolio>.row {
             display: flex;
             flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
         }
         
         .portfolio>.row>.images {
@@ -50,5 +52,19 @@
         .portfolio>.row>.images img {
             vertical-align: middle;
             width: 100%;
-            height: 300px;
+            cursor: pointer;
+            position: relative;
+        }
+        
+        .portfolio>.row>.images img:hover {
+            background-color: black;
+        }
+        
+        .portfolio>.row>.images>.picture_shadowing {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            position: absolute;
+            top: 30;
+            left: 30;
         }
