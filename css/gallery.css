@@ -59,12 +59,11 @@
         .portfolio>.row>.images img:hover {
             background-color: black;
         }
-        
-        .portfolio>.row>.images>.picture_shadowing {
+        /* .portfolio>.row>.images>.picture_shadowing {
             width: 100px;
             height: 100px;
             background-color: black;
             position: absolute;
             top: 30;
             left: 30;
-        }
+        } */
