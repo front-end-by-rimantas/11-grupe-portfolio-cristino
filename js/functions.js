@@ -166,22 +166,6 @@ document.getElementById("webbtn").addEventListener("click", function() {
 
 });
 
-
-// document.getElementById("language").style.display = "none";
-// document.getElementById("design").style.display = "none";
-// document.getElementById("web").style.display = "none";
-// console.writeline(kdflads);
-
-// document.getElementById("languagebtn").addEventListener("click", renderLanguageSkills);
-// document.getElementById("design").style.display = "none";
-// document.getElementById("web").style.display = "none";
-// console.writeline(blablabla);
-
-// document.getElementById("webbtn").addEventListener("click", renderWebSkills);
-// document.getElementById("design").style.display = "none";
-// document.getElementById("language").style.display = "none";
-
-
 // latest work
 
 // job history
