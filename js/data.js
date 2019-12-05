@@ -113,6 +113,7 @@ const services = [{
     }
 ]
 
+
 // work expertise
 
 const designskills = [{
@@ -159,6 +160,33 @@ const webskills = [{
 ];
 
 // latest work
+
+// work participation section
+
+const timeline = [
+    {
+    title: 'UX Designer',
+    role: 'Vivo - Senior Designer',
+    p: 'The generated injected humour, or non-characteristic words etc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis',
+    period: '2015 - 2018',
+    // position: 'left'
+    },
+    {
+    title: 'Web Developer',
+    role: 'Oppo - HR Manager',
+    p: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel molestie faucibus. Donec auctor et urnaLorem ipsum dolor sit amet',
+    period: '2012 - 2015',
+    position: 'right'
+    },
+    {
+    title: 'Graphic Designer',
+    role: 'Apple - Testor',
+    p: 'Therefore always free from repetition, injected humour, or non-characteristic words etc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis',
+    period: '2008 - 2010',
+    // position: 'left'
+    }
+]
+
 
 // job history
 
