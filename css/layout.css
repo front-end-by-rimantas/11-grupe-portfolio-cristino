@@ -62,8 +62,8 @@
     display: inline-block;
     float: left;
     min-height: 1px;
-    margin-left: var(--gap);
-    margin-right: var(--gap);
+    /* margin-left: var(--gap);
+    margin-right: var(--gap); */
 }
 
 .row>.col-1 {
