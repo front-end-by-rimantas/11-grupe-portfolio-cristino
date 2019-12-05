@@ -5,56 +5,55 @@
 // hero
 
 // about me+hobbies
-const hobbies = [
-    {
-    icon: 'laptop',
-    title: 'Developing'
+const hobbies = [{
+        icon: 'laptop',
+        title: 'Developing'
     },
     {
-    icon: 'apple',
-    title: 'Mac OS'
+        icon: 'apple',
+        title: 'Mac OS'
     },
     {
-    icon: 'film',
-    title: 'Cinema'
+        icon: 'film',
+        title: 'Cinema'
     },
     {
-    icon: 'coffee',
-    title: 'Coffee'
+        icon: 'coffee',
+        title: 'Coffee'
     },
     {
-    icon: 'music',
-    title: 'Music'
+        icon: 'music',
+        title: 'Music'
     },
     {
-    icon: 'gamepad',
-    title: 'Games'
+        icon: 'gamepad',
+        title: 'Games'
     },
     {
-    icon: 'plane',
-    title: 'Travelling'
+        icon: 'plane',
+        title: 'Travelling'
     },
     {
-    icon: 'car',
-    title: 'Cars'
+        icon: 'car',
+        title: 'Cars'
     },
     {
-    icon: 'futbol-o',
-    title: 'Sports'
+        icon: 'futbol-o',
+        title: 'Sports'
     },
     {
-    icon: 'paint-brush',
-    title: 'Painting'
+        icon: 'paint-brush',
+        title: 'Painting'
     },
     {
-    icon: 'book',
-    title: 'Reading'
+        icon: 'book',
+        title: 'Reading'
     },
     {
-    icon: 'child',
-    title: 'Dancing'
+        icon: 'child',
+        title: 'Dancing'
     },
-    ]
+]
 
 // numbers
 const numbers = [{
@@ -82,32 +81,85 @@ const numbers = [{
 ];
 
 // what i offer-services
-const services = [
-    {icon: 'desktop',
-     title: 'UX / UI DESIGN',
-     p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
+const services = [{
+        icon: 'desktop',
+        title: 'UX / UI DESIGN',
+        p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
     },
-    {icon: 'apple',
-     title: 'IOS APP DESIGNER',
-     p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
+    {
+        icon: 'apple',
+        title: 'IOS APP DESIGNER',
+        p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
     },
-    {icon: 'camera',
-     title: 'PHOTOGRAPHY',
-     p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
+    {
+        icon: 'camera',
+        title: 'PHOTOGRAPHY',
+        p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
     },
-    {icon: 'leaf',
-     title: 'GRAPHIC DESIGNER',
-     p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
+    {
+        icon: 'leaf',
+        title: 'GRAPHIC DESIGNER',
+        p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
     },
-    {icon: 'shield',
-     title: 'WEB SECURITY',
-     p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
+    {
+        icon: 'shield',
+        title: 'WEB SECURITY',
+        p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
     },
-    {icon: 'clock-o',
-     title: '24 / 7',
-     p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
+    {
+        icon: 'clock-o',
+        title: '24 / 7',
+        p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
     }
 ]
+
+
+// work expertise
+
+const designskills = [{
+        title: 'HTML',
+        value: 84
+    },
+
+    {
+        title: 'CSS',
+        value: 75
+    },
+
+    {
+        title: 'JQuery',
+        value: 79
+    }
+];
+
+const languageskills = [{
+        title: 'English',
+        value: 84
+    },
+
+    {
+        title: 'Spanish',
+        value: 75
+    },
+
+    {
+        title: 'German',
+        value: 79
+    }
+];
+
+const webskills = [{
+        title: 'Photoshop',
+        value: 84
+    },
+
+    {
+        title: 'Sketch',
+        value: 75
+    }
+];
+
+// latest work
 
 // work participation section
 
@@ -134,6 +186,7 @@ const timeline = [
     // position: 'left'
     }
 ]
+
 
 // job history
 
