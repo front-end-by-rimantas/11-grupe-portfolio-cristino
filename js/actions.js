@@ -40,6 +40,9 @@ renderProgressBars(webskills, '#web');
 // job history
 
 // services
+//gallery
+
+// renderPortfolio(gallery);
 
 // testimonials
 
