@@ -86,7 +86,6 @@ const services = [{
         title: 'UX / UI DESIGN',
         p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
     },
-
     {
         icon: 'apple',
         title: 'IOS APP DESIGNER',
@@ -165,56 +164,26 @@ const webskills = [{
 // work participation section
 
 const timeline = [
-
     {
-        icon: 'apple',
-        title: 'IOS APP DESIGNER',
-        p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
+    title: 'UX Designer',
+    role: 'Vivo - Senior Designer',
+    p: 'The generated injected humour, or non-characteristic words etc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis',
+    period: '2015 - 2018',
+    // position: 'left'
     },
     {
-        icon: 'camera',
-        title: 'PHOTOGRAPHY',
-        p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
+    title: 'Web Developer',
+    role: 'Oppo - HR Manager',
+    p: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel molestie faucibus. Donec auctor et urnaLorem ipsum dolor sit amet',
+    period: '2012 - 2015',
+    position: 'right'
     },
     {
-        icon: 'leaf',
-        title: 'GRAPHIC DESIGNER',
-        p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
-    },
-    {
-        icon: 'shield',
-        title: 'WEB SECURITY',
-        p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
-    },
-    {
-        icon: 'clock-o',
-        title: '24 / 7',
-        p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
-    }
-]
-
-// work participation section
-
-const timeline = [{
-        title: 'UX Designer',
-        role: 'Vivo - Senior Designer',
-        p: 'The generated injected humour, or non-characteristic words etc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis',
-        period: '2015 - 2018',
-        // position: 'left'
-    },
-    {
-        title: 'Web Developer',
-        role: 'Oppo - HR Manager',
-        p: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel molestie faucibus. Donec auctor et urnaLorem ipsum dolor sit amet',
-        period: '2012 - 2015',
-        position: 'right'
-    },
-    {
-        title: 'Graphic Designer',
-        role: 'Apple - Testor',
-        p: 'Therefore always free from repetition, injected humour, or non-characteristic words etc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis',
-        period: '2008 - 2010',
-        // position: 'left'
+    title: 'Graphic Designer',
+    role: 'Apple - Testor',
+    p: 'Therefore always free from repetition, injected humour, or non-characteristic words etc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis',
+    period: '2008 - 2010',
+    // position: 'left'
     }
 ]
 
@@ -222,40 +191,6 @@ const timeline = [{
 // job history
 
 // services
-
-//gallery
-
-// const gallery = [{
-//         photo: '01.jpg',
-//         title: 'klaviatura',
-//         tags: ['web design']
-//     },
-//     {
-//         photo: '04.jpg',
-//         title: 'ausinesIrLapas',
-//         tags: ['branding']
-//     },
-//     {
-//         photo: '02.jpg',
-//         title: 'puodelis',
-//         tags: ['studio']
-//     },
-//     {
-//         photo: '03.jpg',
-//         title: 'stalasIrKede',
-//         tags: ['graphics']
-//     },
-//     {
-//         photo: '05.jpg',
-//         title: 'fotoaparatas',
-//         tags: ['web design']
-//     },
-//     {
-//         photo: '06.jpg',
-//         title: 'kompiuterisIrArbata',
-//         tags: ['Branding']
-//     },
-// ]
 
 // testimonials
 
