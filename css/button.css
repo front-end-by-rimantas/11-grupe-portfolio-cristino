@@ -49,6 +49,21 @@
     color: white;
 }
 
+.btn4 {
+    display: inline-block;
+    padding: 12px 24px;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    background: transparent;
+}
+
 .btn1:hover {
     background-color: var(--color-darkGrey)
 }
@@ -59,6 +74,12 @@
 }
 
 .btn3:hover {
+    color: white;
+    border: 1px solid var(--color-primary-red);
+    background-color: var(--color-primary-red);
+}
+
+.btn4.active {
     color: white;
     border: 1px solid var(--color-primary-red);
     background-color: var(--color-primary-red);

@@ -86,6 +86,86 @@ const services = [{
         title: 'UX / UI DESIGN',
         p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
     },
+
+    {
+        icon: 'apple',
+        title: 'IOS APP DESIGNER',
+        p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
+    },
+    {
+        icon: 'camera',
+        title: 'PHOTOGRAPHY',
+        p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
+    },
+    {
+        icon: 'leaf',
+        title: 'GRAPHIC DESIGNER',
+        p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
+    },
+    {
+        icon: 'shield',
+        title: 'WEB SECURITY',
+        p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
+    },
+    {
+        icon: 'clock-o',
+        title: '24 / 7',
+        p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
+    }
+]
+
+
+// work expertise
+
+const designskills = [{
+        title: 'HTML',
+        value: 84
+    },
+
+    {
+        title: 'CSS',
+        value: 75
+    },
+
+    {
+        title: 'JQuery',
+        value: 79
+    }
+];
+
+const languageskills = [{
+        title: 'English',
+        value: 84
+    },
+
+    {
+        title: 'Spanish',
+        value: 75
+    },
+
+    {
+        title: 'German',
+        value: 79
+    }
+];
+
+const webskills = [{
+        title: 'Photoshop',
+        value: 84
+    },
+
+    {
+        title: 'Sketch',
+        value: 75
+    }
+];
+
+// latest work
+
+// work participation section
+
+const timeline = [
+
     {
         icon: 'apple',
         title: 'IOS APP DESIGNER',
@@ -137,6 +217,7 @@ const timeline = [{
         // position: 'left'
     }
 ]
+
 
 // job history
 
