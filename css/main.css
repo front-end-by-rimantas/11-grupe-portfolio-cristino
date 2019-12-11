@@ -338,6 +338,7 @@
 /*<!-- achievements end -->*/
 
 
+
 /* <!-- work participation start --> */
 
 .icon-top {
@@ -464,6 +465,7 @@
 /* <!-- WORK EXPERTISE start --><!-- WORK EXPERTISE end --><!-- LATEST NEWS & BLOG start --><!-- LATEST NEWS & BLOG end --><!-- hire me start --><!-- hire me end --> */
 
 
+
 /* <!-- hire me start --> */
 
 .bg-hire-me {
@@ -472,13 +474,21 @@
     height: 40vh;
     background-image: url(../img/portfolio/hireme.jpg);
     background-position: 350% 150%;
+
+}
+
+.bg-hire-me>.bg-overlay {
+    background-color: rgba(35, 37, 47, 0.7);
+    width: 100%;
+    height: 40vh;
+    position: absolute;
+
 }
 
 .hire-me {
     display: inline-block;
     width: 100%;
     text-align: center;
-    vertical-align: center;
     position: relative;
 }
 
@@ -511,6 +521,52 @@
 
 
 /* <!-- hire me end --> */
+
+
+
+/* <!-- work participation start --><!-- work participation end --><!-- LATEST NEWS & BLOG start --> */
+
+
+/*<!-- WORK EXPERTISE start -->*/
+
+.expertise {
+    display: inline-block;
+    width: 100%;
+    height: 90vh;
+    background-color: var(--color-lightGrey);
+}
+
+.surprise {
+    display: inline-block;
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+
+.p-bar p {
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.skills-buttons {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.buttons {
+    display: inline-block;
+    width: 40%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+/*<!-- WORK EXPERTISE end -->*/
+
 
 
 /* <!-- work participation start --><!-- work participation end --><!-- WORK EXPERTISE start --><!-- WORK EXPERTISE end --><!-- LATEST NEWS & BLOG start --> */

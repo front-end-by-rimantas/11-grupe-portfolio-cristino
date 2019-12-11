@@ -113,6 +113,7 @@ const services = [{
     }
 ]
 
+
 // work expertise
 
 const designskills = [{
@@ -158,7 +159,6 @@ const webskills = [{
     }
 ];
 
-
 // work participation section
 
 const timeline = [{
@@ -183,6 +183,7 @@ const timeline = [{
         // position: 'left'
     }
 ]
+
 
 // job history
 
