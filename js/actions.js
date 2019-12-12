@@ -11,7 +11,10 @@ renderHobbies(hobbies);
 renderServices(services);
 
 
+
+
 //scroll
+
 
 window.addEventListener('scroll', () => {
     progressBarAnimation();
@@ -27,6 +30,11 @@ window.addEventListener('scroll', () => {
 });
 renderAchievements(numbers);
 
+//progress bar
+renderProgressBars(designskills, '#design');
+renderProgressBars(languageskills, '#language');
+renderProgressBars(webskills, '#web');
+
 
 // work participation section
 renderTimeline(timeline);
@@ -40,9 +48,6 @@ renderProgressBars(webskills, '#web');
 // job history
 
 // services
-//gallery
-
-// renderPortfolio(gallery);
 
 // testimonials
 

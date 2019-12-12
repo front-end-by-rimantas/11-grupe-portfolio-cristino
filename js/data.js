@@ -86,7 +86,6 @@ const services = [{
         title: 'UX / UI DESIGN',
         p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
     },
-
     {
         icon: 'apple',
         title: 'IOS APP DESIGNER',
@@ -160,39 +159,6 @@ const webskills = [{
     }
 ];
 
-// latest work
-
-// work participation section
-
-const timeline = [
-
-    {
-        icon: 'apple',
-        title: 'IOS APP DESIGNER',
-        p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
-    },
-    {
-        icon: 'camera',
-        title: 'PHOTOGRAPHY',
-        p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
-    },
-    {
-        icon: 'leaf',
-        title: 'GRAPHIC DESIGNER',
-        p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
-    },
-    {
-        icon: 'shield',
-        title: 'WEB SECURITY',
-        p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
-    },
-    {
-        icon: 'clock-o',
-        title: '24 / 7',
-        p: 'It is a long established fact that a reader will be distracted by the when looking at its layout.'
-    }
-]
-
 // work participation section
 
 const timeline = [{
@@ -222,40 +188,6 @@ const timeline = [{
 // job history
 
 // services
-
-//gallery
-
-// const gallery = [{
-//         photo: '01.jpg',
-//         title: 'klaviatura',
-//         tags: ['web design']
-//     },
-//     {
-//         photo: '04.jpg',
-//         title: 'ausinesIrLapas',
-//         tags: ['branding']
-//     },
-//     {
-//         photo: '02.jpg',
-//         title: 'puodelis',
-//         tags: ['studio']
-//     },
-//     {
-//         photo: '03.jpg',
-//         title: 'stalasIrKede',
-//         tags: ['graphics']
-//     },
-//     {
-//         photo: '05.jpg',
-//         title: 'fotoaparatas',
-//         tags: ['web design']
-//     },
-//     {
-//         photo: '06.jpg',
-//         title: 'kompiuterisIrArbata',
-//         tags: ['Branding']
-//     },
-// ]
 
 // testimonials
 

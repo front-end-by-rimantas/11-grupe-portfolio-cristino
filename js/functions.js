@@ -218,6 +218,103 @@ function sectionNumberCounter(target) {
     }
 }
 
+// skills
+
+function renderProgressBars(list, divId) {
+    let HTML = '';
+
+    for (let i = 0; i < list.length; i++) {
+        const item = list[i];
+        HTML += `<div class="progress-bar" data-value="${item.value}">
+                    <div class="texts">
+                        <div class="label">${item.title}</div>
+                        <div class="value">0%</div>
+                    </div>
+                    <div class="full">
+                        <div class="bar" style="width: ${item.value}%;">
+                            <div class="loading"></div>
+                        </div>
+                    </div>
+                </div>`;
+    }
+
+    return document.querySelector(divId).innerHTML = HTML;
+}
+
+
+
+function progressBarAnimation() {
+    document.getElementById("designbtn").click();
+    const myPositionY = scrollY + window.innerHeight;
+    const progressBars = document.querySelectorAll('.progress-bar');
+
+    for (let i = 0; i < progressBars.length; i++) {
+        const item = progressBars[i];
+        if (item.dataset.animated && item.dataset.animated === 'done') {
+            continue;
+        }
+        const itemHeight = parseFloat(getComputedStyle(item).height);
+        if (item.offsetTop + itemHeight > myPositionY) {
+            continue;
+
+        }
+        item.dataset.animated = 'done';
+        const valueDOM = item.querySelector('.texts > .value');
+        const value = parseInt(item.dataset.value);
+        const time = 3;
+        let currentStep = 0;
+
+        const timer = setInterval(() => {
+            valueDOM.textContent = currentStep + '%';
+            if (currentStep === value) {
+                clearInterval(timer);
+            }
+            currentStep++;
+        }, time * 1000 / (value + 1));
+    }
+}
+
+
+
+document.getElementById("designbtn").addEventListener("click", function() {
+    document.getElementById("designbtn").classList.add("active");
+    document.getElementById("languagebtn").classList.remove("active");
+    document.getElementById("webbtn").classList.remove("active");
+
+
+    document.getElementById("language").style.display = "none";
+    document.getElementById("design").style.display = "block";
+    document.getElementById("web").style.display = "none";
+
+
+});
+
+document.getElementById("languagebtn").addEventListener("click", function() {
+    document.getElementById("designbtn").classList.remove("active");
+    document.getElementById("languagebtn").classList.add("active");
+    document.getElementById("webbtn").classList.remove("active");
+
+
+
+    document.getElementById("language").style.display = "block";
+    document.getElementById("design").style.display = "none";
+    document.getElementById("web").style.display = "none";
+
+
+});
+
+document.getElementById("webbtn").addEventListener("click", function() {
+    document.getElementById("designbtn").classList.remove("active");
+    document.getElementById("languagebtn").classList.remove("active");
+    document.getElementById("webbtn").classList.add("active");
+
+    document.getElementById("language").style.display = "none";
+    document.getElementById("design").style.display = "none";
+    document.getElementById("web").style.display = "block";
+
+
+});
+
 // work participation section
 function renderTimeline(timelineList) {
     let HTML = '';
@@ -252,41 +349,6 @@ function renderTimeline(timelineList) {
 // job history
 
 // services
-
-//gallery
-// function renderPortfolio(list) {
-//     let HTML = '';
-//     let filterHTML = '';
-//     let galleryHTML = '';
-
-//     // sugeneruoti filtravima
-//     filterHTML = `<div class="item">filter</div>
-//     <div class="item">filter</div>
-//     <div class="item">filter</div>
-//     <div class="item">filter</div>
-//     <div class="item">filter</div>`;
-
-//     //sugeneruoti darbus
-//     for (let i = 0; i < list.length; i++) {
-//         const work = list[i];
-//         console.log(work);
-//         galleryHTML += `<div class="item">
-//         <img src="./img/blog/${work.photo}"
-//         alt="${work.title}">
-//     </div>`;
-//     }
-//     //sugeneruoti darbus
-//     HTML += ` <div class="gallery">
-//         <div class="filter">
-//             ${filterHTML}
-//         </div>
-//         <div class="list">
-//             ${galleryHTML}
-//         </div>
-//         </div>`;
-//     const DOMgallery = document.querySelector('#porfolio_gallery');
-//     DOMgallery.innerHTML = HTML;
-// }
 
 // testimonials
 
