@@ -29,7 +29,7 @@ footer>.row>.col-6>i {
     cursor: pointer;
 }
 
-footer>.row>.col-6> :hover {
+footer>.row>.col-6>i:hover {
     background-color: var(--color-primary-red);
     border: 1px solid var(--color-primary-red);
     color: white;
