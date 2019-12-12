@@ -471,22 +471,27 @@
     width: 100%;
     height: 40vh;
     background-image: url(../img/portfolio/hireme.jpg);
-    background-position-x: left;
-    background-position-y: top;
+    background-position: 350% 150%;
+}
+
+.bg-hire-me>.bg-overlay {
+    background-color: rgba(35, 37, 47, 0.7);
+    width: 100%;
+    height: 40vh;
+    position: absolute;
 }
 
 .hire-me {
     display: inline-block;
     width: 100%;
     text-align: center;
-    vertical-align: center;
     position: relative;
 }
 
 .hire-me h {
     display: inline-block;
     width: 100%;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     line-height: 20px;
     margin-bottom: 8px;
@@ -501,11 +506,92 @@
     color: rgba(255, 255, 255, 0.5);
 }
 
+.hire-me a {
+    text-decoration: none;
+}
+
+.hire-me i {
+    font-size: 50%;
+    padding: 6px 0px 0px 5px;
+}
+
 
 /* <!-- hire me end --> */
 
 
+/* <!-- work participation start --><!-- work participation end --><!-- LATEST NEWS & BLOG start --> */
+
+
 /* <!-- work participation start --><!-- work participation end --><!-- WORK EXPERTISE start --><!-- WORK EXPERTISE end --><!-- LATEST NEWS & BLOG start --> */
+
+
+/*<!-- WORK EXPERTISE start -->*/
+
+.expertise {
+    display: inline-block;
+    width: 100%;
+    height: 90vh;
+    background-color: var(--color-lightGrey);
+}
+
+.expertise>.row>.surprise {
+    margin-left: 0;
+}
+
+.expertise>.row>.surprise>img {
+    display: inline-block;
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+
+.expertise>.row {
+    padding: 0;
+}
+
+.p-bar {
+    display: inline-block;
+    width: 100%;
+}
+
+.p-bar p {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: #6c757d;
+}
+
+.skills-buttons {
+    display: inline-block;
+    width: 35%;
+    float: left;
+    text-align: center;
+}
+
+.buttons {
+    display: inline-block;
+    width: 40%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.inner {
+    display: inline-block;
+    width: 100%;
+    padding: 0 45px 0;
+}
+
+.bar {
+    display: inline-block;
+    float: left;
+    width: 65%;
+}
+
+
+/*<!-- WORK EXPERTISE end -->*/
 
 .blog img {
     margin-bottom: 20px;
