@@ -1,0 +1,40 @@
+.portfolio>.row>.filter {
+    text-align: center;
+}
+
+.portfolio>.row>.filter>a {
+    display: inline-block;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 30px 10px;
+}
+
+.portfolio>.row>.filter>a:hover {
+    color: white;
+    background-color: var(--color-primary-red);
+}
+
+.portfolio>.row>.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.portfolio>.row>.gallery>.column {
+    flex: calc(100% / 3);
+    max-width: calc(100% / 3);
+}
+
+.portfolio>.row>.gallery>.column>img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+.portfolio>.row>.gallery>.column>img:hover {
+    padding: 1px;
+    transform: rotate(1deg);
+}
